@@ -1,5 +1,6 @@
 body {
 	background-color: #000000;
+	font-family:'Sunflower', sans-serif;
 }
 h1 {
 	color: #0002;
@@ -9,7 +10,7 @@ h2 {
 }
 
 .bg-dark {
-	background-color: #060 !important;
+	background-color: #000000 !important;
 }
 
 .nav-link {
@@ -21,4 +22,15 @@ h2 {
 
 a.active {
 	color: #b3b300 !important;
+}
+
+.hero_img {
+	display: inline-flex;
+	float: right;
+	height: 200px;
+	width: 200px;
+}
+
+.mojo_hero {
+margin: 20px;
 }

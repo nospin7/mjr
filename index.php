@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Google Fonts CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Sunflower:300" rel="stylesheet">
     <!-- Gallerie CSS & JQuery Plugin -->
     <link rel="stylesheet" type="text/css" href="gallerie.css"/>
     <link rel="stylesheet" type="text/css" href="gallerie-effects.css"/>
@@ -32,16 +34,23 @@
       </ul>
     </nav> 
     <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1>mojorex design</h1>
+      <div class="container-fluid">
+        <h1 class="mojo_hero">mojorex design</h1>
         <p class="lead">where creative chaos meets ink.</p>
       </div>
+        <div class="container">
+          <img class="hero_img" src="/img/mjr_hero1.png" alt="Black shapes"/>
+        </div>
     </div>
-    <div id="gallery">
-      <
+    <!--<div class="container middle">
+      <div id="gallery">
+        <a href="/img/uptight_downtown.png">
+          <img src="/img/thumbs/uptight_downtown_thumb.png"/>
+          <p>"The streets are lined with people..."</p>
+        </a>
+      </div>
     </div>
-
-
+      -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
