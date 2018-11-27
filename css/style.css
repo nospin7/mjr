@@ -1,0 +1,24 @@
+body {
+	background-color: #000000;
+}
+h1 {
+	color: #0002;
+}
+h2 {
+	color: #060;
+}
+
+.bg-dark {
+	background-color: #060 !important;
+}
+
+.nav-link {
+	color: #f2f2f2 !important;
+}
+.nav-link:hover {
+	color: #e6e600 !important;
+}
+
+a.active {
+	color: #b3b300 !important;
+}
