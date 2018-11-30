@@ -23,14 +23,16 @@ h2 {
 a.active {
 	color: #b3b300 !important;
 }
-
-.hero_img {
-	display: inline-flex;
-	float: right;
-	height: 200px;
-	width: 200px;
+.jumbotron h1 {
+	color: #0606;
+	padding-left: 1em;
 }
 
-.mojo_hero {
-margin: 20px;
+.jumbotron p {
+	padding-left:2em;
+}
+
+.col-sm-4 {
+	background-color: azure;
+	height: 65px;
 }
