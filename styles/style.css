@@ -32,7 +32,11 @@ a.active {
 	padding-left:2em;
 }
 
-.col-sm-4 {
+.col-sm-4, .col-sm-6 {
 	background-color: azure;
 	height: 65px;
+}
+
+.section-title {
+	font-size: 1.25em;
 }

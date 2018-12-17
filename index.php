@@ -8,17 +8,18 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
     <!-- Google Fonts CSS -->
     <link href="https://fonts.googleapis.com/css?family=Sunflower:300" rel="stylesheet">
     <!-- Gallerie CSS & JQuery Plugin -->
-    <link rel="stylesheet" type="text/css" href="css/gallerie.css"/>
-    <link rel="stylesheet" type="text/css" href="css/gallerie-effects.css"/>
-    <script src="js/jquery.gallerie.js"></script>
-    <script type="text/javascript">
+    <link rel="stylesheet" type="text/css" href="styles/gallerie.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/gallerie-effects.css"/>
+    <script src="scripts/jquery.gallerie.js"></script>
+    <script src="scripts/myscript.js"></script>
+    <!--<script type="text/javascript">
         $(document).ready(function(){
           $('#gallery').gallerie();
-        });
+        });-->
     </script>
     <title>Welcome to MojoRex.</title>
   </head>
@@ -38,12 +39,106 @@
         <p class="lead">where creative chaos meets ink.</p>
     </div>
 
+  <div class="container"> 
     <div class="row">
-      <div class="col-sm-4">Column 1</div>
-      <div class="col-sm-4">Column 2</div>
-      <div class="col-sm-4">Column 3</div>
-      
+      <div class="col-sm-4">
+        <span class="section-title">
+          Numbers
+        </span>
+        <div class="row">
+          <div class="col-8 col-sm-6">
+            ones
+          </div>
+          <div class="col-4 col-sm-6">
+            x
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-8 col-sm-6">
+            twos
+          </div>
+          <div class="col-4 col-sm-6">
+            x
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-8 col-sm-6">
+            threes
+          </div>
+          <div class="col-4 col-sm-6">
+            x
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-8 col-sm-6">
+            fours
+          </div>
+          <div class="col-4 col-sm-6">
+            x
+          </div>
+          </div>
+        <div class="row">
+          <div class="col-8 col-sm-6">
+            fives
+          </div>
+          <div class="col-4 col-sm-6">
+            x
+          </div>
+      </div>
+      <div class="row">
+      <div class="col-sm-4">
+        <span class="section-title">
+          Numbers
+        </span>
+        <div class="row">
+          <div class="col-8 col-sm-6">
+            ones
+          </div>
+          <div class="col-4 col-sm-6">
+            x
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-8 col-sm-6">
+            twos
+          </div>
+          <div class="col-4 col-sm-6">
+            x
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-8 col-sm-6">
+            threes
+          </div>
+          <div class="col-4 col-sm-6">
+            x
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-8 col-sm-6">
+            fours
+          </div>
+          <div class="col-4 col-sm-6">
+            x
+          </div>
+          </div>
+        <div class="row">
+          <div class="col-8 col-sm-6">
+            fives
+          </div>
+          <div class="col-4 col-sm-6">
+            x
+          </div>
+      </div>
     </div>
+    </div>
+    
+      </div>
+    </div>
+  
+</div>
+</div>
+
     
 
     <!--<div class="container middle">
