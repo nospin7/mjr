@@ -39,116 +39,204 @@
         <p class="lead">where creative chaos meets ink.</p>
     </div>
 
-  <div class="container"> 
-    <div class="row">
-      <div class="col-sm-4">
-        <span class="section-title">
-          Numbers
-        </span>
-        <div class="row">
-          <div class="col-8 col-sm-6">
-            ones
-          </div>
-          <div class="col-4 col-sm-6">
-            x
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-8 col-sm-6">
-            twos
-          </div>
-          <div class="col-4 col-sm-6">
-            x
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-8 col-sm-6">
-            threes
-          </div>
-          <div class="col-4 col-sm-6">
-            x
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-8 col-sm-6">
-            fours
-          </div>
-          <div class="col-4 col-sm-6">
-            x
-          </div>
-          </div>
-        <div class="row">
-          <div class="col-8 col-sm-6">
-            fives
-          </div>
-          <div class="col-4 col-sm-6">
-            x
-          </div>
-      </div>
+    <!--Scorecard -->
+    <div class="container-fluid scorecard">
       <div class="row">
-      <div class="col-sm-4">
-        <span class="section-title">
-          Numbers
-        </span>
-        <div class="row">
-          <div class="col-8 col-sm-6">
-            ones
-          </div>
-          <div class="col-4 col-sm-6">
-            x
+        <div class="col-md-4">
+          <div class="row section-title">Numbers</div>
+          <div class="row section-numbers">
+            <div class="col-md-12">
+              <table class="table table-sm table-striped table-hover">
+                <tbody>
+                  <tr>
+                    <td>
+                      <img src="/assets/items/d1-1x.png" alt="Die with the number one"/>ones
+                    </td>
+                    <td>
+                      <span class="count_ones"></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img src="/assets/items/d2-1x.png" alt="Die with the number two"/>twos
+                    </td>
+                    <td>
+                      <span class="count_twos"></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img src="/assets/items/d3-1x.png" alt="Die with the number three"/>threes
+                    </td>
+                    <td>
+                      <span class="count_threes"></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img src="/assets/items/d4-1x.png" alt="Die with the number four"/>fours
+                    </td>
+                    <td>
+                      <span class="count_fours"></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img src="/assets/items/d5-1x.png" alt="Die with the number five"/>fives
+                    </td>
+                    <td>
+                      <span class="count_fives"></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img src="/assets/items/d6-1x.png" alt="Die with the number six"/>six
+                    </td>
+                    <td>
+                      <span class="count_six"></span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-8 col-sm-6">
-            twos
-          </div>
-          <div class="col-4 col-sm-6">
-            x
+        <div class="col-md-4">
+          <div class="row section-title">Colors</div>
+          <div class="row section-numbers">
+            <div class="col-md-12">
+              <table class="table table-sm table-striped table-hover">
+                <tbody>
+                  <tr>
+                    <td>
+                      <img src="/assets/items/d-blank-1x.png" alt="Red die"/>reds
+                    </td>
+                    <td>
+                      <span class="count-red"></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img src="/assets/items/d-blank-1x.png" alt="Die with the number two"/>yellows
+                    </td>
+                    <td>
+                      <span class="count-yellow"></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img src="/assets/items/d-blank-1x.png" alt="Green die"/>greens
+                    </td>
+                    <td>
+                      <span class="count-green"></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img src="/assets/items/d-blank-1x.png" alt="Blue die"/>blues
+                    </td>
+                    <td>
+                      <span class="count-blue"></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img src="/assets/items/d-blank-1x.png" alt="Purple die"/>purples
+                    </td>
+                    <td>
+                      <span class="count-purple"></span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-8 col-sm-6">
-            threes
-          </div>
-          <div class="col-4 col-sm-6">
-            x
+        <div class="col-md-4">
+          <div class="row section-title">Combos</div>
+          <div class="row section-numbers">
+            <div class="col-md-12">
+              <table class="table table-sm table-striped table-hover">
+                <tbody>
+                  <tr>
+                    <td>
+                      <img src="/assets/items/d1-1x.png" alt="Die with the number one"/>Four of a Kind
+                    </td>
+                    <td>
+                      <span class="count-4kind"></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img src="/assets/items/d2-1x.png" alt="Die with the number two"/>Four of a Color
+                    </td>
+                    <td>
+                      <span class="count-4color"></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img src="/assets/items/d-fullhouse-1x.png" alt="Die Michelle Tanner on it."/>Tanners
+                    </td>
+                    <td>
+                      <span class="count-fullhouse"></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img src="/assets/items/d-paintedhouse-1x.png" alt="Die with Michelle Tanner with a rainbow gradient"/>Pride Tanners
+                    </td>
+                    <td>
+                      <span class="count-pridehouse"></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img src="/assets/items/d5-1x.png" alt="Die with the number five"/>Large Straight
+                    </td>
+                    <td>
+                      <span class="count-lgstraight"></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img src="/assets/items/d-rainbow-1x.png" alt="Die with the number six"/>Rainbow
+                    </td>
+                    <td>
+                      <span class="count_rainbow"></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img src="/assets/items/d6-1x.png" alt="Die with the number six"/>Flush
+                    </td>
+                    <td>
+                      <span class="count_flush"></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img src="/assets/items/d6-1x.png" alt="Die with the number six"/>Quints
+                    </td>
+                    <td>
+                      <span class="count_quint"></span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-8 col-sm-6">
-            fours
-          </div>
-          <div class="col-4 col-sm-6">
-            x
-          </div>
-          </div>
-        <div class="row">
-          <div class="col-8 col-sm-6">
-            fives
-          </div>
-          <div class="col-4 col-sm-6">
-            x
-          </div>
       </div>
     </div>
+    <!-- Dice rolling area of page -->
+    <div class="container-fluid dice-roll">
+      <div class="col-md-12">
+
+      </div>
+
     </div>
     
-      </div>
-    </div>
-  
-</div>
-</div>
-
-    
-
-    <!--<div class="container middle">
-      <div id="gallery">
-        <a href="/img/uptight_downtown.png">
-          <img src="/img/thumbs/uptight_downtown_thumb.png"/>
-          <p>"The streets are lined with people..."</p>
-        </a>
-      </div>
-    </div>-->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

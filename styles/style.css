@@ -32,11 +32,23 @@ a.active {
 	padding-left:2em;
 }
 
-.col-sm-4, .col-sm-6 {
+/* Scorecard area */
+.scorecard {
 	background-color: azure;
-	height: 65px;
 }
 
 .section-title {
 	font-size: 1.25em;
+	padding: 10px;
 }
+
+.section-numbers img {
+	padding: 3px 10px 3px 3px;
+}
+
+
+/* Dice rolling area */
+.dice-roll {
+	background-color: #e6e;
+}
+
